@@ -1,0 +1,40 @@
+2019-11-18 16:08:47,824 ERROR 7024 nodejs.ClusterClientNoResponseError: client no response in 220861ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (C:\Users\m\Desktop\shopping\server\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 7024
+hostname: DESKTOP-VI228RB
+
+2019-11-18 16:48:16,575 ERROR 8068 [-/127.0.0.1/-/70ms POST /v1/goodsOne/comment] nodejs.ValidationError: Comment validation failed: anonymous: Cast to Boolean failed for value "0 " at path "anonymous"
+    at new ValidationError (C:\Users\m\Desktop\shopping\server\node_modules\_mongoose@5.7.7@mongoose\lib\error\validation.js:31:11)
+    at model.Document.invalidate (C:\Users\m\Desktop\shopping\server\node_modules\_mongoose@5.7.7@mongoose\lib\document.js:2394:32)
+    at model.$set (C:\Users\m\Desktop\shopping\server\node_modules\_mongoose@5.7.7@mongoose\lib\document.js:1175:12)
+    at model._handleIndex (C:\Users\m\Desktop\shopping\server\node_modules\_mongoose@5.7.7@mongoose\lib\document.js:930:14)
+    at model.$set (C:\Users\m\Desktop\shopping\server\node_modules\_mongoose@5.7.7@mongoose\lib\document.js:874:22)
+    at model.Document (C:\Users\m\Desktop\shopping\server\node_modules\_mongoose@5.7.7@mongoose\lib\document.js:136:12)
+    at model.Model (C:\Users\m\Desktop\shopping\server\node_modules\_mongoose@5.7.7@mongoose\lib\model.js:93:12)
+    at new model (C:\Users\m\Desktop\shopping\server\node_modules\_mongoose@5.7.7@mongoose\lib\model.js:4420:15)
+    at OperatingGoodsController.comment (C:\Users\m\Desktop\shopping\server\app\controller\api\operatingGoods.js:262:25)
+    at Object.callFn (C:\Users\m\Desktop\shopping\server\node_modules\_egg-core@4.17.3@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\m\Desktop\shopping\server\node_modules\_egg-core@4.17.3@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\m\Desktop\shopping\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\m\Desktop\shopping\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\m\Desktop\shopping\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\m\Desktop\shopping\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\m\Desktop\shopping\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+errors: {"anonymous":{"message":"Cast to Boolean failed for value \"0 \" at path \"anonymous\"","name":"CastError","stringValue":"\"0 \"","kind":"Boolean","value":"0 ","path":"anonymous","reason":{"message":"Cast to Boolean failed for value \"0 \" at path \"anonymous\"","name":"CastError","stringValue":"\"0 \"","kind":"Boolean","value":"0 ","path":"anonymous"}}}
+_message: "Comment validation failed"
+message: "Comment validation failed: anonymous: Cast to Boolean failed for value \"0 \" at path \"anonymous\""
+name: "ValidationError"
+pid: 8068
+hostname: DESKTOP-VI228RB
+
+2019-11-19 08:04:32,969 ERROR 7024 nodejs.ClusterClientNoResponseError: client no response in 49421998ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (C:\Users\m\Desktop\shopping\server\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 7024
+hostname: DESKTOP-VI228RB
+

@@ -1,0 +1,84 @@
+2019-11-16 01:22:32,332 ERROR 6056 [-/127.0.0.1/-/6ms POST /v1/evaluateOne] nodejs.Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters
+    at new ObjectID (C:\Users\m\Desktop\shopping\server\node_modules\_bson@1.1.1@bson\lib\bson\objectid.js:59:11)
+    at ObjectID [as ObjectId] (C:\Users\m\Desktop\shopping\server\node_modules\_bson@1.1.1@bson\lib\bson\objectid.js:40:43)
+    at UserController.evaluateOne (C:\Users\m\Desktop\shopping\server\app\controller\api\user.js:453:52)
+    at Object.callFn (C:\Users\m\Desktop\shopping\server\node_modules\_egg-core@4.17.3@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\m\Desktop\shopping\server\node_modules\_egg-core@4.17.3@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\m\Desktop\shopping\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\m\Desktop\shopping\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\m\Desktop\shopping\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\m\Desktop\shopping\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\m\Desktop\shopping\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\m\Desktop\shopping\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at C:\Users\m\Desktop\shopping\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (C:\Users\m\Desktop\shopping\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\m\Desktop\shopping\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at C:\Users\m\Desktop\shopping\server\app\middleware\isLogin.js:15:19
+    at dispatch (C:\Users\m\Desktop\shopping\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+
+pid: 6056
+hostname: DESKTOP-VI228RB
+
+2019-11-16 01:23:10,572 ERROR 6056 [-/127.0.0.1/-/3ms POST /v1/evaluateOne] nodejs.Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters
+    at new ObjectID (C:\Users\m\Desktop\shopping\server\node_modules\_bson@1.1.1@bson\lib\bson\objectid.js:59:11)
+    at ObjectID [as ObjectId] (C:\Users\m\Desktop\shopping\server\node_modules\_bson@1.1.1@bson\lib\bson\objectid.js:40:43)
+    at UserController.evaluateOne (C:\Users\m\Desktop\shopping\server\app\controller\api\user.js:453:52)
+    at Object.callFn (C:\Users\m\Desktop\shopping\server\node_modules\_egg-core@4.17.3@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\m\Desktop\shopping\server\node_modules\_egg-core@4.17.3@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\m\Desktop\shopping\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\m\Desktop\shopping\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\m\Desktop\shopping\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\m\Desktop\shopping\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\m\Desktop\shopping\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\m\Desktop\shopping\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at C:\Users\m\Desktop\shopping\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (C:\Users\m\Desktop\shopping\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\m\Desktop\shopping\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at C:\Users\m\Desktop\shopping\server\app\middleware\isLogin.js:15:19
+    at dispatch (C:\Users\m\Desktop\shopping\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+
+pid: 6056
+hostname: DESKTOP-VI228RB
+
+2019-11-16 01:23:34,164 ERROR 6056 [-/127.0.0.1/-/2ms POST /v1/evaluateOne] nodejs.Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters
+    at new ObjectID (C:\Users\m\Desktop\shopping\server\node_modules\_bson@1.1.1@bson\lib\bson\objectid.js:59:11)
+    at ObjectID [as ObjectId] (C:\Users\m\Desktop\shopping\server\node_modules\_bson@1.1.1@bson\lib\bson\objectid.js:40:43)
+    at UserController.evaluateOne (C:\Users\m\Desktop\shopping\server\app\controller\api\user.js:453:52)
+    at Object.callFn (C:\Users\m\Desktop\shopping\server\node_modules\_egg-core@4.17.3@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\m\Desktop\shopping\server\node_modules\_egg-core@4.17.3@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\m\Desktop\shopping\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\m\Desktop\shopping\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\m\Desktop\shopping\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\m\Desktop\shopping\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\m\Desktop\shopping\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\m\Desktop\shopping\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at C:\Users\m\Desktop\shopping\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (C:\Users\m\Desktop\shopping\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\m\Desktop\shopping\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at C:\Users\m\Desktop\shopping\server\app\middleware\isLogin.js:15:19
+    at dispatch (C:\Users\m\Desktop\shopping\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+
+pid: 6056
+hostname: DESKTOP-VI228RB
+
+2019-11-16 01:24:32,346 ERROR 6056 [-/127.0.0.1/-/2ms POST /v1/evaluateOne] nodejs.Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters
+    at new ObjectID (C:\Users\m\Desktop\shopping\server\node_modules\_bson@1.1.1@bson\lib\bson\objectid.js:59:11)
+    at ObjectID [as ObjectId] (C:\Users\m\Desktop\shopping\server\node_modules\_bson@1.1.1@bson\lib\bson\objectid.js:40:43)
+    at UserController.evaluateOne (C:\Users\m\Desktop\shopping\server\app\controller\api\user.js:453:52)
+    at Object.callFn (C:\Users\m\Desktop\shopping\server\node_modules\_egg-core@4.17.3@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\m\Desktop\shopping\server\node_modules\_egg-core@4.17.3@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\m\Desktop\shopping\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\m\Desktop\shopping\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\m\Desktop\shopping\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\m\Desktop\shopping\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\m\Desktop\shopping\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\m\Desktop\shopping\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at C:\Users\m\Desktop\shopping\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (C:\Users\m\Desktop\shopping\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\m\Desktop\shopping\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at C:\Users\m\Desktop\shopping\server\app\middleware\isLogin.js:15:19
+    at dispatch (C:\Users\m\Desktop\shopping\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+
+pid: 6056
+hostname: DESKTOP-VI228RB
+

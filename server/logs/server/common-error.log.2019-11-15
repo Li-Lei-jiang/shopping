@@ -1,0 +1,520 @@
+2019-11-15 08:38:06,123 ERROR 10072 [-/127.0.0.1/-/59ms POST /v1/order] nodejs.TypeError: Cannot read property 'length' of undefined
+    at OperatingGoodsController.order (C:\Users\m\Desktop\shopping\server\app\controller\api\operatingGoods.js:178:42)
+    at Object.callFn (C:\Users\m\Desktop\shopping\server\node_modules\_egg-core@4.17.3@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\m\Desktop\shopping\server\node_modules\_egg-core@4.17.3@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\m\Desktop\shopping\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\m\Desktop\shopping\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\m\Desktop\shopping\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\m\Desktop\shopping\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\m\Desktop\shopping\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\m\Desktop\shopping\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at C:\Users\m\Desktop\shopping\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (C:\Users\m\Desktop\shopping\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\m\Desktop\shopping\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at C:\Users\m\Desktop\shopping\server\app\middleware\isLogin.js:15:19
+    at dispatch (C:\Users\m\Desktop\shopping\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at C:\Users\m\Desktop\shopping\server\node_modules\_egg-development@2.4.3@egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\m\Desktop\shopping\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+
+pid: 10072
+hostname: DESKTOP-VI228RB
+
+2019-11-15 09:16:41,016 ERROR 10072 [-/127.0.0.1/-/3ms POST /v1/order] nodejs.TypeError: Cannot read property 'length' of undefined
+    at OperatingGoodsController.order (C:\Users\m\Desktop\shopping\server\app\controller\api\operatingGoods.js:178:42)
+    at Object.callFn (C:\Users\m\Desktop\shopping\server\node_modules\_egg-core@4.17.3@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\m\Desktop\shopping\server\node_modules\_egg-core@4.17.3@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\m\Desktop\shopping\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\m\Desktop\shopping\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\m\Desktop\shopping\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\m\Desktop\shopping\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\m\Desktop\shopping\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\m\Desktop\shopping\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at C:\Users\m\Desktop\shopping\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (C:\Users\m\Desktop\shopping\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\m\Desktop\shopping\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at C:\Users\m\Desktop\shopping\server\app\middleware\isLogin.js:15:19
+    at dispatch (C:\Users\m\Desktop\shopping\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at C:\Users\m\Desktop\shopping\server\node_modules\_egg-development@2.4.3@egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\m\Desktop\shopping\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+
+pid: 10072
+hostname: DESKTOP-VI228RB
+
+2019-11-15 09:16:45,209 ERROR 10072 [-/127.0.0.1/-/2ms POST /v1/order] nodejs.TypeError: Cannot read property 'length' of undefined
+    at OperatingGoodsController.order (C:\Users\m\Desktop\shopping\server\app\controller\api\operatingGoods.js:178:42)
+    at Object.callFn (C:\Users\m\Desktop\shopping\server\node_modules\_egg-core@4.17.3@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\m\Desktop\shopping\server\node_modules\_egg-core@4.17.3@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\m\Desktop\shopping\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\m\Desktop\shopping\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\m\Desktop\shopping\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\m\Desktop\shopping\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\m\Desktop\shopping\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\m\Desktop\shopping\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at C:\Users\m\Desktop\shopping\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (C:\Users\m\Desktop\shopping\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\m\Desktop\shopping\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at C:\Users\m\Desktop\shopping\server\app\middleware\isLogin.js:15:19
+    at dispatch (C:\Users\m\Desktop\shopping\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at C:\Users\m\Desktop\shopping\server\node_modules\_egg-development@2.4.3@egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\m\Desktop\shopping\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+
+pid: 10072
+hostname: DESKTOP-VI228RB
+
+2019-11-15 09:17:17,796 ERROR 10072 [-/127.0.0.1/-/3ms POST /v1/order] nodejs.TypeError: Cannot read property 'length' of undefined
+    at OperatingGoodsController.order (C:\Users\m\Desktop\shopping\server\app\controller\api\operatingGoods.js:178:42)
+    at Object.callFn (C:\Users\m\Desktop\shopping\server\node_modules\_egg-core@4.17.3@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\m\Desktop\shopping\server\node_modules\_egg-core@4.17.3@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\m\Desktop\shopping\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\m\Desktop\shopping\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\m\Desktop\shopping\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\m\Desktop\shopping\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\m\Desktop\shopping\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\m\Desktop\shopping\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at C:\Users\m\Desktop\shopping\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (C:\Users\m\Desktop\shopping\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\m\Desktop\shopping\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at C:\Users\m\Desktop\shopping\server\app\middleware\isLogin.js:15:19
+    at dispatch (C:\Users\m\Desktop\shopping\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at C:\Users\m\Desktop\shopping\server\node_modules\_egg-development@2.4.3@egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\m\Desktop\shopping\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+
+pid: 10072
+hostname: DESKTOP-VI228RB
+
+2019-11-15 09:19:35,111 ERROR 10072 [-/127.0.0.1/-/9ms POST /v1/order] nodejs.TypeError: Cannot read property 'length' of undefined
+    at OperatingGoodsController.order (C:\Users\m\Desktop\shopping\server\app\controller\api\operatingGoods.js:178:42)
+    at Object.callFn (C:\Users\m\Desktop\shopping\server\node_modules\_egg-core@4.17.3@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\m\Desktop\shopping\server\node_modules\_egg-core@4.17.3@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\m\Desktop\shopping\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\m\Desktop\shopping\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\m\Desktop\shopping\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\m\Desktop\shopping\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\m\Desktop\shopping\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\m\Desktop\shopping\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at C:\Users\m\Desktop\shopping\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (C:\Users\m\Desktop\shopping\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\m\Desktop\shopping\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at C:\Users\m\Desktop\shopping\server\app\middleware\isLogin.js:15:19
+    at dispatch (C:\Users\m\Desktop\shopping\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at C:\Users\m\Desktop\shopping\server\node_modules\_egg-development@2.4.3@egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\m\Desktop\shopping\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+
+pid: 10072
+hostname: DESKTOP-VI228RB
+
+2019-11-15 09:43:20,380 ERROR 10072 [-/127.0.0.1/-/10ms POST /v1/setDefaultAddress] nodejs.CastError: Cast to ObjectId failed for value "{ isTrusted: true }" at path "_id" for model "Address"
+    at new CastError (C:\Users\m\Desktop\shopping\server\node_modules\_mongoose@5.7.7@mongoose\lib\error\cast.js:29:11)
+    at ObjectId.cast (C:\Users\m\Desktop\shopping\server\node_modules\_mongoose@5.7.7@mongoose\lib\schema\objectid.js:246:11)
+    at ObjectId.SchemaType.applySetters (C:\Users\m\Desktop\shopping\server\node_modules\_mongoose@5.7.7@mongoose\lib\schematype.js:969:12)
+    at ObjectId.SchemaType._castForQuery (C:\Users\m\Desktop\shopping\server\node_modules\_mongoose@5.7.7@mongoose\lib\schematype.js:1383:15)
+    at ObjectId.SchemaType.castForQuery (C:\Users\m\Desktop\shopping\server\node_modules\_mongoose@5.7.7@mongoose\lib\schematype.js:1373:15)
+    at ObjectId.SchemaType.castForQueryWrapper (C:\Users\m\Desktop\shopping\server\node_modules\_mongoose@5.7.7@mongoose\lib\schematype.js:1352:15)
+    at cast (C:\Users\m\Desktop\shopping\server\node_modules\_mongoose@5.7.7@mongoose\lib\cast.js:260:34)
+    at model.Query.Query.cast (C:\Users\m\Desktop\shopping\server\node_modules\_mongoose@5.7.7@mongoose\lib\query.js:4644:12)
+    at castQuery (C:\Users\m\Desktop\shopping\server\node_modules\_mongoose@5.7.7@mongoose\lib\query.js:4457:18)
+    at model.Query.Query._findAndModify (C:\Users\m\Desktop\shopping\server\node_modules\_mongoose@5.7.7@mongoose\lib\query.js:3416:23)
+    at model.Query.<anonymous> (C:\Users\m\Desktop\shopping\server\node_modules\_mongoose@5.7.7@mongoose\lib\query.js:3001:8)
+    at model.Query._wrappedThunk [as _findOneAndUpdate] (C:\Users\m\Desktop\shopping\server\node_modules\_mongoose@5.7.7@mongoose\lib\helpers\query\wrapThunk.js:16:8)
+    at C:\Users\m\Desktop\shopping\server\node_modules\_kareem@2.3.1@kareem\index.js:369:33
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+message: "Cast to ObjectId failed for value \"{ isTrusted: true }\" at path \"_id\" for model \"Address\""
+name: "CastError"
+stringValue: "\"{ isTrusted: true }\""
+kind: "ObjectId"
+value: {"isTrusted":true}
+path: "_id"
+reason: undefined
+model: undefined
+pid: 10072
+hostname: DESKTOP-VI228RB
+
+2019-11-15 09:54:19,896 ERROR 10072 [-/127.0.0.1/-/2ms POST /v1/order] nodejs.TypeError: Cannot read property 'length' of undefined
+    at OperatingGoodsController.order (C:\Users\m\Desktop\shopping\server\app\controller\api\operatingGoods.js:178:42)
+    at Object.callFn (C:\Users\m\Desktop\shopping\server\node_modules\_egg-core@4.17.3@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\m\Desktop\shopping\server\node_modules\_egg-core@4.17.3@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\m\Desktop\shopping\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\m\Desktop\shopping\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\m\Desktop\shopping\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\m\Desktop\shopping\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\m\Desktop\shopping\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\m\Desktop\shopping\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at C:\Users\m\Desktop\shopping\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (C:\Users\m\Desktop\shopping\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\m\Desktop\shopping\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at C:\Users\m\Desktop\shopping\server\app\middleware\isLogin.js:15:19
+    at dispatch (C:\Users\m\Desktop\shopping\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at C:\Users\m\Desktop\shopping\server\node_modules\_egg-development@2.4.3@egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\m\Desktop\shopping\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+
+pid: 10072
+hostname: DESKTOP-VI228RB
+
+2019-11-15 09:55:58,321 ERROR 10072 [-/127.0.0.1/-/1ms POST /v1/order] nodejs.TypeError: Cannot read property 'length' of undefined
+    at OperatingGoodsController.order (C:\Users\m\Desktop\shopping\server\app\controller\api\operatingGoods.js:178:42)
+    at Object.callFn (C:\Users\m\Desktop\shopping\server\node_modules\_egg-core@4.17.3@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\m\Desktop\shopping\server\node_modules\_egg-core@4.17.3@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\m\Desktop\shopping\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\m\Desktop\shopping\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\m\Desktop\shopping\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\m\Desktop\shopping\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\m\Desktop\shopping\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\m\Desktop\shopping\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at C:\Users\m\Desktop\shopping\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (C:\Users\m\Desktop\shopping\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\m\Desktop\shopping\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at C:\Users\m\Desktop\shopping\server\app\middleware\isLogin.js:15:19
+    at dispatch (C:\Users\m\Desktop\shopping\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at C:\Users\m\Desktop\shopping\server\node_modules\_egg-development@2.4.3@egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\m\Desktop\shopping\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+
+pid: 10072
+hostname: DESKTOP-VI228RB
+
+2019-11-15 09:58:01,821 ERROR 10072 [-/127.0.0.1/-/2ms POST /v1/order] nodejs.TypeError: Cannot read property 'length' of undefined
+    at OperatingGoodsController.order (C:\Users\m\Desktop\shopping\server\app\controller\api\operatingGoods.js:178:42)
+    at Object.callFn (C:\Users\m\Desktop\shopping\server\node_modules\_egg-core@4.17.3@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\m\Desktop\shopping\server\node_modules\_egg-core@4.17.3@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\m\Desktop\shopping\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\m\Desktop\shopping\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\m\Desktop\shopping\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\m\Desktop\shopping\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\m\Desktop\shopping\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\m\Desktop\shopping\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at C:\Users\m\Desktop\shopping\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (C:\Users\m\Desktop\shopping\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\m\Desktop\shopping\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at C:\Users\m\Desktop\shopping\server\app\middleware\isLogin.js:15:19
+    at dispatch (C:\Users\m\Desktop\shopping\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at C:\Users\m\Desktop\shopping\server\node_modules\_egg-development@2.4.3@egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\m\Desktop\shopping\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+
+pid: 10072
+hostname: DESKTOP-VI228RB
+
+2019-11-15 09:59:04,058 ERROR 10072 [-/127.0.0.1/-/2ms POST /v1/order] nodejs.TypeError: Cannot read property 'length' of undefined
+    at OperatingGoodsController.order (C:\Users\m\Desktop\shopping\server\app\controller\api\operatingGoods.js:178:42)
+    at Object.callFn (C:\Users\m\Desktop\shopping\server\node_modules\_egg-core@4.17.3@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\m\Desktop\shopping\server\node_modules\_egg-core@4.17.3@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\m\Desktop\shopping\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\m\Desktop\shopping\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\m\Desktop\shopping\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\m\Desktop\shopping\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\m\Desktop\shopping\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\m\Desktop\shopping\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at C:\Users\m\Desktop\shopping\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (C:\Users\m\Desktop\shopping\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\m\Desktop\shopping\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at C:\Users\m\Desktop\shopping\server\app\middleware\isLogin.js:15:19
+    at dispatch (C:\Users\m\Desktop\shopping\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at C:\Users\m\Desktop\shopping\server\node_modules\_egg-development@2.4.3@egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\m\Desktop\shopping\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+
+pid: 10072
+hostname: DESKTOP-VI228RB
+
+2019-11-15 09:59:38,317 ERROR 10072 [-/127.0.0.1/-/2ms POST /v1/order] nodejs.TypeError: Cannot read property 'length' of undefined
+    at OperatingGoodsController.order (C:\Users\m\Desktop\shopping\server\app\controller\api\operatingGoods.js:178:42)
+    at Object.callFn (C:\Users\m\Desktop\shopping\server\node_modules\_egg-core@4.17.3@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\m\Desktop\shopping\server\node_modules\_egg-core@4.17.3@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\m\Desktop\shopping\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\m\Desktop\shopping\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\m\Desktop\shopping\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\m\Desktop\shopping\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\m\Desktop\shopping\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\m\Desktop\shopping\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at C:\Users\m\Desktop\shopping\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (C:\Users\m\Desktop\shopping\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\m\Desktop\shopping\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at C:\Users\m\Desktop\shopping\server\app\middleware\isLogin.js:15:19
+    at dispatch (C:\Users\m\Desktop\shopping\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at C:\Users\m\Desktop\shopping\server\node_modules\_egg-development@2.4.3@egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\m\Desktop\shopping\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+
+pid: 10072
+hostname: DESKTOP-VI228RB
+
+2019-11-15 11:18:12,862 ERROR 10072 [-/127.0.0.1/-/4ms POST /v1/order] nodejs.TypeError: Cannot read property 'length' of undefined
+    at OperatingGoodsController.order (C:\Users\m\Desktop\shopping\server\app\controller\api\operatingGoods.js:178:42)
+    at Object.callFn (C:\Users\m\Desktop\shopping\server\node_modules\_egg-core@4.17.3@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\m\Desktop\shopping\server\node_modules\_egg-core@4.17.3@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\m\Desktop\shopping\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\m\Desktop\shopping\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\m\Desktop\shopping\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\m\Desktop\shopping\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\m\Desktop\shopping\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\m\Desktop\shopping\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at C:\Users\m\Desktop\shopping\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (C:\Users\m\Desktop\shopping\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\m\Desktop\shopping\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at C:\Users\m\Desktop\shopping\server\app\middleware\isLogin.js:15:19
+    at dispatch (C:\Users\m\Desktop\shopping\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at C:\Users\m\Desktop\shopping\server\node_modules\_egg-development@2.4.3@egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\m\Desktop\shopping\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+
+pid: 10072
+hostname: DESKTOP-VI228RB
+
+2019-11-15 14:05:00,451 ERROR 10072 [-/127.0.0.1/-/4ms POST /v1/order] nodejs.TypeError: Cannot read property 'length' of undefined
+    at OperatingGoodsController.order (C:\Users\m\Desktop\shopping\server\app\controller\api\operatingGoods.js:178:42)
+    at Object.callFn (C:\Users\m\Desktop\shopping\server\node_modules\_egg-core@4.17.3@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\m\Desktop\shopping\server\node_modules\_egg-core@4.17.3@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\m\Desktop\shopping\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\m\Desktop\shopping\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\m\Desktop\shopping\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\m\Desktop\shopping\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\m\Desktop\shopping\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\m\Desktop\shopping\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at C:\Users\m\Desktop\shopping\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (C:\Users\m\Desktop\shopping\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\m\Desktop\shopping\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at C:\Users\m\Desktop\shopping\server\app\middleware\isLogin.js:15:19
+    at dispatch (C:\Users\m\Desktop\shopping\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at C:\Users\m\Desktop\shopping\server\node_modules\_egg-development@2.4.3@egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\m\Desktop\shopping\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+
+pid: 10072
+hostname: DESKTOP-VI228RB
+
+2019-11-15 14:06:55,567 ERROR 10072 [-/127.0.0.1/-/1ms POST /v1/order] nodejs.TypeError: Cannot read property 'length' of undefined
+    at OperatingGoodsController.order (C:\Users\m\Desktop\shopping\server\app\controller\api\operatingGoods.js:178:42)
+    at Object.callFn (C:\Users\m\Desktop\shopping\server\node_modules\_egg-core@4.17.3@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\m\Desktop\shopping\server\node_modules\_egg-core@4.17.3@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\m\Desktop\shopping\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\m\Desktop\shopping\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\m\Desktop\shopping\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\m\Desktop\shopping\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\m\Desktop\shopping\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\m\Desktop\shopping\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at C:\Users\m\Desktop\shopping\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (C:\Users\m\Desktop\shopping\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\m\Desktop\shopping\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at C:\Users\m\Desktop\shopping\server\app\middleware\isLogin.js:15:19
+    at dispatch (C:\Users\m\Desktop\shopping\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at C:\Users\m\Desktop\shopping\server\node_modules\_egg-development@2.4.3@egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\m\Desktop\shopping\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+
+pid: 10072
+hostname: DESKTOP-VI228RB
+
+2019-11-15 14:07:58,517 ERROR 10072 [-/127.0.0.1/-/2ms POST /v1/order] nodejs.TypeError: Cannot read property 'length' of undefined
+    at OperatingGoodsController.order (C:\Users\m\Desktop\shopping\server\app\controller\api\operatingGoods.js:178:42)
+    at Object.callFn (C:\Users\m\Desktop\shopping\server\node_modules\_egg-core@4.17.3@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\m\Desktop\shopping\server\node_modules\_egg-core@4.17.3@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\m\Desktop\shopping\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\m\Desktop\shopping\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\m\Desktop\shopping\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\m\Desktop\shopping\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\m\Desktop\shopping\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\m\Desktop\shopping\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at C:\Users\m\Desktop\shopping\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (C:\Users\m\Desktop\shopping\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\m\Desktop\shopping\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at C:\Users\m\Desktop\shopping\server\app\middleware\isLogin.js:15:19
+    at dispatch (C:\Users\m\Desktop\shopping\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at C:\Users\m\Desktop\shopping\server\node_modules\_egg-development@2.4.3@egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\m\Desktop\shopping\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+
+pid: 10072
+hostname: DESKTOP-VI228RB
+
+2019-11-15 14:34:30,120 ERROR 10072 [-/127.0.0.1/-/2ms POST /v1/order] nodejs.TypeError: Cannot read property 'length' of undefined
+    at OperatingGoodsController.order (C:\Users\m\Desktop\shopping\server\app\controller\api\operatingGoods.js:178:42)
+    at Object.callFn (C:\Users\m\Desktop\shopping\server\node_modules\_egg-core@4.17.3@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\m\Desktop\shopping\server\node_modules\_egg-core@4.17.3@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\m\Desktop\shopping\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\m\Desktop\shopping\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\m\Desktop\shopping\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\m\Desktop\shopping\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\m\Desktop\shopping\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\m\Desktop\shopping\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at C:\Users\m\Desktop\shopping\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (C:\Users\m\Desktop\shopping\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\m\Desktop\shopping\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at C:\Users\m\Desktop\shopping\server\app\middleware\isLogin.js:15:19
+    at dispatch (C:\Users\m\Desktop\shopping\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at C:\Users\m\Desktop\shopping\server\node_modules\_egg-development@2.4.3@egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\m\Desktop\shopping\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+
+pid: 10072
+hostname: DESKTOP-VI228RB
+
+2019-11-15 16:33:37,038 ERROR 10072 [-/127.0.0.1/-/5ms POST /v1/order] nodejs.TypeError: Cannot read property 'length' of undefined
+    at OperatingGoodsController.order (C:\Users\m\Desktop\shopping\server\app\controller\api\operatingGoods.js:178:42)
+    at Object.callFn (C:\Users\m\Desktop\shopping\server\node_modules\_egg-core@4.17.3@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\m\Desktop\shopping\server\node_modules\_egg-core@4.17.3@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\m\Desktop\shopping\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\m\Desktop\shopping\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\m\Desktop\shopping\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\m\Desktop\shopping\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\m\Desktop\shopping\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\m\Desktop\shopping\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at C:\Users\m\Desktop\shopping\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (C:\Users\m\Desktop\shopping\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\m\Desktop\shopping\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at C:\Users\m\Desktop\shopping\server\app\middleware\isLogin.js:15:19
+    at dispatch (C:\Users\m\Desktop\shopping\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at C:\Users\m\Desktop\shopping\server\node_modules\_egg-development@2.4.3@egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\m\Desktop\shopping\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+
+pid: 10072
+hostname: DESKTOP-VI228RB
+
+2019-11-15 16:42:36,020 ERROR 10072 [-/127.0.0.1/-/4ms POST /v1/order] nodejs.TypeError: Cannot read property 'count' of undefined
+    at OperatingGoodsController.order (C:\Users\m\Desktop\shopping\server\app\controller\api\operatingGoods.js:197:34)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\Users\m\Desktop\shopping\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\m\Desktop\shopping\server\node_modules\_egg-development@2.4.3@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\m\Desktop\shopping\server\node_modules\_egg-security@2.7.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\m\Desktop\shopping\server\node_modules\_egg-security@2.7.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\m\Desktop\shopping\server\node_modules\_egg-security@2.7.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\m\Desktop\shopping\server\node_modules\_egg-security@2.7.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\m\Desktop\shopping\server\node_modules\_koa-session@5.12.3@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\m\Desktop\shopping\server\node_modules\_koa-bodyparser@4.2.1@koa-bodyparser\index.js:86:5)
+    at async C:\Users\m\Desktop\shopping\server\node_modules\_koa-static-cache@5.1.2@koa-static-cache\index.js:51:63
+    at async notfound (C:\Users\m\Desktop\shopping\server\node_modules\_egg@2.25.0@egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\m\Desktop\shopping\server\node_modules\_egg@2.25.0@egg\app\middleware\meta.js:12:5)
+
+pid: 10072
+hostname: DESKTOP-VI228RB
+
+2019-11-15 16:43:46,945 ERROR 10072 [-/127.0.0.1/-/2ms POST /v1/order] nodejs.TypeError: Cannot read property 'count' of undefined
+    at OperatingGoodsController.order (C:\Users\m\Desktop\shopping\server\app\controller\api\operatingGoods.js:197:34)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\Users\m\Desktop\shopping\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\m\Desktop\shopping\server\node_modules\_egg-development@2.4.3@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\m\Desktop\shopping\server\node_modules\_egg-security@2.7.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\m\Desktop\shopping\server\node_modules\_egg-security@2.7.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\m\Desktop\shopping\server\node_modules\_egg-security@2.7.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\m\Desktop\shopping\server\node_modules\_egg-security@2.7.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\m\Desktop\shopping\server\node_modules\_koa-session@5.12.3@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\m\Desktop\shopping\server\node_modules\_koa-bodyparser@4.2.1@koa-bodyparser\index.js:86:5)
+    at async C:\Users\m\Desktop\shopping\server\node_modules\_koa-static-cache@5.1.2@koa-static-cache\index.js:51:63
+    at async notfound (C:\Users\m\Desktop\shopping\server\node_modules\_egg@2.25.0@egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\m\Desktop\shopping\server\node_modules\_egg@2.25.0@egg\app\middleware\meta.js:12:5)
+
+pid: 10072
+hostname: DESKTOP-VI228RB
+
+2019-11-15 16:48:37,770 ERROR 10072 [-/127.0.0.1/-/3ms POST /v1/order] nodejs.TypeError: Cannot read property 'count' of undefined
+    at OperatingGoodsController.order (C:\Users\m\Desktop\shopping\server\app\controller\api\operatingGoods.js:197:34)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\Users\m\Desktop\shopping\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\m\Desktop\shopping\server\node_modules\_egg-development@2.4.3@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\m\Desktop\shopping\server\node_modules\_egg-security@2.7.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\m\Desktop\shopping\server\node_modules\_egg-security@2.7.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\m\Desktop\shopping\server\node_modules\_egg-security@2.7.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\m\Desktop\shopping\server\node_modules\_egg-security@2.7.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\m\Desktop\shopping\server\node_modules\_koa-session@5.12.3@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\m\Desktop\shopping\server\node_modules\_koa-bodyparser@4.2.1@koa-bodyparser\index.js:86:5)
+    at async C:\Users\m\Desktop\shopping\server\node_modules\_koa-static-cache@5.1.2@koa-static-cache\index.js:51:63
+    at async notfound (C:\Users\m\Desktop\shopping\server\node_modules\_egg@2.25.0@egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\m\Desktop\shopping\server\node_modules\_egg@2.25.0@egg\app\middleware\meta.js:12:5)
+
+pid: 10072
+hostname: DESKTOP-VI228RB
+
+2019-11-15 16:49:52,282 ERROR 10072 [-/127.0.0.1/-/5ms POST /v1/order] nodejs.TypeError: Cannot read property 'count' of undefined
+    at OperatingGoodsController.order (C:\Users\m\Desktop\shopping\server\app\controller\api\operatingGoods.js:197:34)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\Users\m\Desktop\shopping\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\m\Desktop\shopping\server\node_modules\_egg-development@2.4.3@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\m\Desktop\shopping\server\node_modules\_egg-security@2.7.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\m\Desktop\shopping\server\node_modules\_egg-security@2.7.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\m\Desktop\shopping\server\node_modules\_egg-security@2.7.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\m\Desktop\shopping\server\node_modules\_egg-security@2.7.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\m\Desktop\shopping\server\node_modules\_koa-session@5.12.3@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\m\Desktop\shopping\server\node_modules\_koa-bodyparser@4.2.1@koa-bodyparser\index.js:86:5)
+    at async C:\Users\m\Desktop\shopping\server\node_modules\_koa-static-cache@5.1.2@koa-static-cache\index.js:51:63
+    at async notfound (C:\Users\m\Desktop\shopping\server\node_modules\_egg@2.25.0@egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\m\Desktop\shopping\server\node_modules\_egg@2.25.0@egg\app\middleware\meta.js:12:5)
+
+pid: 10072
+hostname: DESKTOP-VI228RB
+
+2019-11-15 19:47:44,043 ERROR 10072 [-/127.0.0.1/-/2ms POST /v1/evaluateOne] nodejs.Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters
+    at new ObjectID (C:\Users\m\Desktop\shopping\server\node_modules\_bson@1.1.1@bson\lib\bson\objectid.js:59:11)
+    at ObjectID [as ObjectId] (C:\Users\m\Desktop\shopping\server\node_modules\_bson@1.1.1@bson\lib\bson\objectid.js:40:43)
+    at UserController.evaluateOne (C:\Users\m\Desktop\shopping\server\app\controller\api\user.js:453:52)
+    at Object.callFn (C:\Users\m\Desktop\shopping\server\node_modules\_egg-core@4.17.3@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\m\Desktop\shopping\server\node_modules\_egg-core@4.17.3@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\m\Desktop\shopping\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\m\Desktop\shopping\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\m\Desktop\shopping\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\m\Desktop\shopping\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\m\Desktop\shopping\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\m\Desktop\shopping\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at C:\Users\m\Desktop\shopping\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (C:\Users\m\Desktop\shopping\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\m\Desktop\shopping\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at C:\Users\m\Desktop\shopping\server\app\middleware\isLogin.js:15:19
+    at dispatch (C:\Users\m\Desktop\shopping\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+
+pid: 10072
+hostname: DESKTOP-VI228RB
+
+2019-11-15 19:48:23,823 ERROR 10072 [-/127.0.0.1/-/1ms POST /v1/evaluateOne] nodejs.Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters
+    at new ObjectID (C:\Users\m\Desktop\shopping\server\node_modules\_bson@1.1.1@bson\lib\bson\objectid.js:59:11)
+    at ObjectID [as ObjectId] (C:\Users\m\Desktop\shopping\server\node_modules\_bson@1.1.1@bson\lib\bson\objectid.js:40:43)
+    at UserController.evaluateOne (C:\Users\m\Desktop\shopping\server\app\controller\api\user.js:453:52)
+    at Object.callFn (C:\Users\m\Desktop\shopping\server\node_modules\_egg-core@4.17.3@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\m\Desktop\shopping\server\node_modules\_egg-core@4.17.3@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\m\Desktop\shopping\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\m\Desktop\shopping\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\m\Desktop\shopping\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\m\Desktop\shopping\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\m\Desktop\shopping\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\m\Desktop\shopping\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at C:\Users\m\Desktop\shopping\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (C:\Users\m\Desktop\shopping\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\m\Desktop\shopping\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at C:\Users\m\Desktop\shopping\server\app\middleware\isLogin.js:15:19
+    at dispatch (C:\Users\m\Desktop\shopping\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+
+pid: 10072
+hostname: DESKTOP-VI228RB
+
+2019-11-15 19:48:28,354 ERROR 10072 [-/127.0.0.1/-/1ms POST /v1/evaluateOne] nodejs.Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters
+    at new ObjectID (C:\Users\m\Desktop\shopping\server\node_modules\_bson@1.1.1@bson\lib\bson\objectid.js:59:11)
+    at ObjectID [as ObjectId] (C:\Users\m\Desktop\shopping\server\node_modules\_bson@1.1.1@bson\lib\bson\objectid.js:40:43)
+    at UserController.evaluateOne (C:\Users\m\Desktop\shopping\server\app\controller\api\user.js:453:52)
+    at Object.callFn (C:\Users\m\Desktop\shopping\server\node_modules\_egg-core@4.17.3@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\m\Desktop\shopping\server\node_modules\_egg-core@4.17.3@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\m\Desktop\shopping\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\m\Desktop\shopping\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\m\Desktop\shopping\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\m\Desktop\shopping\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\m\Desktop\shopping\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\m\Desktop\shopping\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at C:\Users\m\Desktop\shopping\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (C:\Users\m\Desktop\shopping\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\m\Desktop\shopping\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at C:\Users\m\Desktop\shopping\server\app\middleware\isLogin.js:15:19
+    at dispatch (C:\Users\m\Desktop\shopping\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+
+pid: 10072
+hostname: DESKTOP-VI228RB
+
+2019-11-15 23:42:27,153 ERROR 10072 [-/127.0.0.1/-/12ms POST /v1/addShop] nodejs.TypeError: Cannot read property 'present_price' of null
+    at OperatingGoodsController.addShop (C:\Users\m\Desktop\shopping\server\app\controller\api\operatingGoods.js:61:38)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\Users\m\Desktop\shopping\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\m\Desktop\shopping\server\node_modules\_egg-development@2.4.3@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\m\Desktop\shopping\server\node_modules\_egg-security@2.7.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\m\Desktop\shopping\server\node_modules\_egg-security@2.7.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\m\Desktop\shopping\server\node_modules\_egg-security@2.7.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\m\Desktop\shopping\server\node_modules\_egg-security@2.7.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\m\Desktop\shopping\server\node_modules\_koa-session@5.12.3@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\m\Desktop\shopping\server\node_modules\_koa-bodyparser@4.2.1@koa-bodyparser\index.js:86:5)
+    at async C:\Users\m\Desktop\shopping\server\node_modules\_koa-static-cache@5.1.2@koa-static-cache\index.js:51:63
+    at async notfound (C:\Users\m\Desktop\shopping\server\node_modules\_egg@2.25.0@egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\m\Desktop\shopping\server\node_modules\_egg@2.25.0@egg\app\middleware\meta.js:12:5)
+
+pid: 10072
+hostname: DESKTOP-VI228RB
+

@@ -1,0 +1,16 @@
+2019-11-04 12:59:03,740 ERROR 2056 nodejs.ClusterClientNoResponseError: client no response in 382563ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (C:\Users\m\Desktop\shopping\server\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 2056
+hostname: DESKTOP-VI228RB
+
+2019-11-05 00:26:31,874 ERROR 6788 nodejs.ClusterClientNoResponseError: client no response in 8289827ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (C:\Users\m\Desktop\shopping\server\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 6788
+hostname: DESKTOP-VI228RB
+

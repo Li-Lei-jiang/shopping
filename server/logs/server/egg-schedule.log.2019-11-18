@@ -1,0 +1,24 @@
+2019-11-18 08:26:19,246 INFO 12568 [egg-schedule]: register schedule C:\Users\m\Desktop\shopping\server\node_modules\_egg-multipart@2.9.0@egg-multipart\app\schedule\clean_tmpdir.js
+2019-11-18 08:26:19,246 INFO 12568 [egg-schedule]: register schedule C:\Users\m\Desktop\shopping\server\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js
+2019-11-18 08:26:19,246 INFO 12568 [egg-schedule]: register schedule C:\Users\m\Desktop\shopping\server\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js
+2019-11-18 08:26:21,594 INFO 6428 [egg-schedule]: register schedule C:\Users\m\Desktop\shopping\server\node_modules\_egg-multipart@2.9.0@egg-multipart\app\schedule\clean_tmpdir.js
+2019-11-18 08:26:21,594 INFO 6428 [egg-schedule]: register schedule C:\Users\m\Desktop\shopping\server\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js
+2019-11-18 08:26:21,594 INFO 6428 [egg-schedule]: register schedule C:\Users\m\Desktop\shopping\server\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js
+2019-11-18 08:26:37,512 INFO 7024 [Timer] C:\Users\m\Desktop\shopping\server\node_modules\_egg-multipart@2.9.0@egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 72202496ms at 2019-11-19 04:30:00.008
+2019-11-18 08:26:37,513 INFO 7024 [Timer] C:\Users\m\Desktop\shopping\server\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js next time will execute after 56002488ms at 2019-11-19 00:00:00.001
+2019-11-18 08:26:37,514 INFO 7024 [Timer] C:\Users\m\Desktop\shopping\server\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 56003487ms at 2019-11-19 00:00:01.001
+2019-11-18 08:26:40,387 INFO 7724 [egg-schedule]: register schedule C:\Users\m\Desktop\shopping\server\node_modules\_egg-multipart@2.9.0@egg-multipart\app\schedule\clean_tmpdir.js
+2019-11-18 08:26:40,388 INFO 7724 [egg-schedule]: register schedule C:\Users\m\Desktop\shopping\server\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js
+2019-11-18 08:26:40,388 INFO 7724 [egg-schedule]: register schedule C:\Users\m\Desktop\shopping\server\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js
+2019-11-18 08:26:45,542 INFO 8068 [egg-schedule]: register schedule C:\Users\m\Desktop\shopping\server\node_modules\_egg-multipart@2.9.0@egg-multipart\app\schedule\clean_tmpdir.js
+2019-11-18 08:26:45,543 INFO 8068 [egg-schedule]: register schedule C:\Users\m\Desktop\shopping\server\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js
+2019-11-18 08:26:45,543 INFO 8068 [egg-schedule]: register schedule C:\Users\m\Desktop\shopping\server\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js
+2019-11-19 08:04:30,647 INFO 8068 [Job#15741218706014555582291305001] C:\Users\m\Desktop\shopping\server\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js executing by app
+2019-11-19 08:04:30,653 INFO 8068 [Job#15741218706194555582455790001] C:\Users\m\Desktop\shopping\server\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js executing by app
+2019-11-19 08:04:30,668 INFO 8068 [Job#15741218706274555582540937001] C:\Users\m\Desktop\shopping\server\node_modules\_egg-multipart@2.9.0@egg-multipart\app\schedule\clean_tmpdir.js executing by app
+2019-11-19 08:04:30,618 INFO 7024 [Timer] C:\Users\m\Desktop\shopping\server\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js next time will execute after 57329394ms at 2019-11-20 00:00:00.012
+2019-11-19 08:04:30,627 INFO 7024 [Timer] C:\Users\m\Desktop\shopping\server\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 57330381ms at 2019-11-20 00:00:01.008
+2019-11-19 08:04:32,968 INFO 7024 [Timer] C:\Users\m\Desktop\shopping\server\node_modules\_egg-multipart@2.9.0@egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 73529373ms at 2019-11-20 04:30:02.341
+2019-11-19 08:04:33,104 INFO 8068 [Job#15741218706014555582291305001] C:\Users\m\Desktop\shopping\server\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js execute succeed, used 2455ms
+2019-11-19 08:04:33,108 INFO 8068 [Job#15741218706274555582540937001] C:\Users\m\Desktop\shopping\server\node_modules\_egg-multipart@2.9.0@egg-multipart\app\schedule\clean_tmpdir.js execute succeed, used 2439ms
+2019-11-19 08:04:35,175 INFO 8068 [Job#15741218706194555582455790001] C:\Users\m\Desktop\shopping\server\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js execute succeed, used 4522ms

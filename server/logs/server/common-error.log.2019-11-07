@@ -1,0 +1,8 @@
+2019-11-07 20:33:21,347 ERROR 2732 nodejs.ClusterClientNoResponseError: client no response in 2259467ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (C:\Users\m\Desktop\shopping\server\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 2732
+hostname: DESKTOP-VI228RB
+

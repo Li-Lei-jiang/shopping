@@ -1,0 +1,181 @@
+2019-11-13 16:50:42,217 ERROR 908 [-/127.0.0.1/-/112ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (C:\Users\m\Desktop\shopping\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\Users\m\Desktop\shopping\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\m\Desktop\shopping\server\node_modules\_egg-development@2.4.3@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\m\Desktop\shopping\server\node_modules\_egg-security@2.7.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\m\Desktop\shopping\server\node_modules\_egg-security@2.7.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\m\Desktop\shopping\server\node_modules\_egg-security@2.7.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\m\Desktop\shopping\server\node_modules\_egg-security@2.7.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\m\Desktop\shopping\server\node_modules\_koa-session@5.12.3@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\m\Desktop\shopping\server\node_modules\_koa-bodyparser@4.2.1@koa-bodyparser\index.js:86:5)
+    at async C:\Users\m\Desktop\shopping\server\node_modules\_koa-static-cache@5.1.2@koa-static-cache\index.js:51:63
+    at async notfound (C:\Users\m\Desktop\shopping\server\node_modules\_egg@2.25.0@egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\m\Desktop\shopping\server\node_modules\_egg@2.25.0@egg\app\middleware\meta.js:12:5)
+
+pid: 908
+hostname: DESKTOP-VI228RB
+
+2019-11-13 16:51:35,836 ERROR 908 [-/127.0.0.1/-/4ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (C:\Users\m\Desktop\shopping\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\Users\m\Desktop\shopping\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\m\Desktop\shopping\server\node_modules\_egg-development@2.4.3@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\m\Desktop\shopping\server\node_modules\_egg-security@2.7.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\m\Desktop\shopping\server\node_modules\_egg-security@2.7.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\m\Desktop\shopping\server\node_modules\_egg-security@2.7.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\m\Desktop\shopping\server\node_modules\_egg-security@2.7.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\m\Desktop\shopping\server\node_modules\_koa-session@5.12.3@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\m\Desktop\shopping\server\node_modules\_koa-bodyparser@4.2.1@koa-bodyparser\index.js:86:5)
+    at async C:\Users\m\Desktop\shopping\server\node_modules\_koa-static-cache@5.1.2@koa-static-cache\index.js:51:63
+    at async notfound (C:\Users\m\Desktop\shopping\server\node_modules\_egg@2.25.0@egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\m\Desktop\shopping\server\node_modules\_egg@2.25.0@egg\app\middleware\meta.js:12:5)
+
+pid: 908
+hostname: DESKTOP-VI228RB
+
+2019-11-13 16:52:16,877 ERROR 908 [-/127.0.0.1/-/3ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (C:\Users\m\Desktop\shopping\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\Users\m\Desktop\shopping\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\m\Desktop\shopping\server\node_modules\_egg-development@2.4.3@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\m\Desktop\shopping\server\node_modules\_egg-security@2.7.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\m\Desktop\shopping\server\node_modules\_egg-security@2.7.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\m\Desktop\shopping\server\node_modules\_egg-security@2.7.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\m\Desktop\shopping\server\node_modules\_egg-security@2.7.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\m\Desktop\shopping\server\node_modules\_koa-session@5.12.3@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\m\Desktop\shopping\server\node_modules\_koa-bodyparser@4.2.1@koa-bodyparser\index.js:86:5)
+    at async C:\Users\m\Desktop\shopping\server\node_modules\_koa-static-cache@5.1.2@koa-static-cache\index.js:51:63
+    at async notfound (C:\Users\m\Desktop\shopping\server\node_modules\_egg@2.25.0@egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\m\Desktop\shopping\server\node_modules\_egg@2.25.0@egg\app\middleware\meta.js:12:5)
+
+pid: 908
+hostname: DESKTOP-VI228RB
+
+2019-11-13 16:53:57,595 ERROR 908 [-/127.0.0.1/-/3ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (C:\Users\m\Desktop\shopping\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\Users\m\Desktop\shopping\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\m\Desktop\shopping\server\node_modules\_egg-development@2.4.3@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\m\Desktop\shopping\server\node_modules\_egg-security@2.7.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\m\Desktop\shopping\server\node_modules\_egg-security@2.7.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\m\Desktop\shopping\server\node_modules\_egg-security@2.7.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\m\Desktop\shopping\server\node_modules\_egg-security@2.7.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\m\Desktop\shopping\server\node_modules\_koa-session@5.12.3@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\m\Desktop\shopping\server\node_modules\_koa-bodyparser@4.2.1@koa-bodyparser\index.js:86:5)
+    at async C:\Users\m\Desktop\shopping\server\node_modules\_koa-static-cache@5.1.2@koa-static-cache\index.js:51:63
+    at async notfound (C:\Users\m\Desktop\shopping\server\node_modules\_egg@2.25.0@egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\m\Desktop\shopping\server\node_modules\_egg@2.25.0@egg\app\middleware\meta.js:12:5)
+
+pid: 908
+hostname: DESKTOP-VI228RB
+
+2019-11-13 16:55:30,076 ERROR 908 [-/127.0.0.1/-/4ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (C:\Users\m\Desktop\shopping\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\Users\m\Desktop\shopping\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\m\Desktop\shopping\server\node_modules\_egg-development@2.4.3@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\m\Desktop\shopping\server\node_modules\_egg-security@2.7.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\m\Desktop\shopping\server\node_modules\_egg-security@2.7.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\m\Desktop\shopping\server\node_modules\_egg-security@2.7.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\m\Desktop\shopping\server\node_modules\_egg-security@2.7.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\m\Desktop\shopping\server\node_modules\_koa-session@5.12.3@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\m\Desktop\shopping\server\node_modules\_koa-bodyparser@4.2.1@koa-bodyparser\index.js:86:5)
+    at async C:\Users\m\Desktop\shopping\server\node_modules\_koa-static-cache@5.1.2@koa-static-cache\index.js:51:63
+    at async notfound (C:\Users\m\Desktop\shopping\server\node_modules\_egg@2.25.0@egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\m\Desktop\shopping\server\node_modules\_egg@2.25.0@egg\app\middleware\meta.js:12:5)
+
+pid: 908
+hostname: DESKTOP-VI228RB
+
+2019-11-13 16:55:44,036 ERROR 908 [-/127.0.0.1/-/6ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (C:\Users\m\Desktop\shopping\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\Users\m\Desktop\shopping\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\m\Desktop\shopping\server\node_modules\_egg-development@2.4.3@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\m\Desktop\shopping\server\node_modules\_egg-security@2.7.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\m\Desktop\shopping\server\node_modules\_egg-security@2.7.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\m\Desktop\shopping\server\node_modules\_egg-security@2.7.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\m\Desktop\shopping\server\node_modules\_egg-security@2.7.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\m\Desktop\shopping\server\node_modules\_koa-session@5.12.3@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\m\Desktop\shopping\server\node_modules\_koa-bodyparser@4.2.1@koa-bodyparser\index.js:86:5)
+    at async C:\Users\m\Desktop\shopping\server\node_modules\_koa-static-cache@5.1.2@koa-static-cache\index.js:51:63
+    at async notfound (C:\Users\m\Desktop\shopping\server\node_modules\_egg@2.25.0@egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\m\Desktop\shopping\server\node_modules\_egg@2.25.0@egg\app\middleware\meta.js:12:5)
+
+pid: 908
+hostname: DESKTOP-VI228RB
+
+2019-11-13 16:58:26,725 ERROR 908 [-/127.0.0.1/-/5ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (C:\Users\m\Desktop\shopping\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\Users\m\Desktop\shopping\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\m\Desktop\shopping\server\node_modules\_egg-development@2.4.3@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\m\Desktop\shopping\server\node_modules\_egg-security@2.7.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\m\Desktop\shopping\server\node_modules\_egg-security@2.7.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\m\Desktop\shopping\server\node_modules\_egg-security@2.7.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\m\Desktop\shopping\server\node_modules\_egg-security@2.7.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\m\Desktop\shopping\server\node_modules\_koa-session@5.12.3@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\m\Desktop\shopping\server\node_modules\_koa-bodyparser@4.2.1@koa-bodyparser\index.js:86:5)
+    at async C:\Users\m\Desktop\shopping\server\node_modules\_koa-static-cache@5.1.2@koa-static-cache\index.js:51:63
+    at async notfound (C:\Users\m\Desktop\shopping\server\node_modules\_egg@2.25.0@egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\m\Desktop\shopping\server\node_modules\_egg@2.25.0@egg\app\middleware\meta.js:12:5)
+
+pid: 908
+hostname: DESKTOP-VI228RB
+
+2019-11-13 21:30:24,525 ERROR 3268 [-/127.0.0.1/-/29ms POST /v1/address] nodejs.ValidationError: Address validation failed: isDefault: Cast to Boolean failed for value "" at path "isDefault"
+    at new ValidationError (C:\Users\m\Desktop\shopping\server\node_modules\_mongoose@5.7.7@mongoose\lib\error\validation.js:31:11)
+    at model.Document.invalidate (C:\Users\m\Desktop\shopping\server\node_modules\_mongoose@5.7.7@mongoose\lib\document.js:2394:32)
+    at model.$set (C:\Users\m\Desktop\shopping\server\node_modules\_mongoose@5.7.7@mongoose\lib\document.js:1175:12)
+    at model._handleIndex (C:\Users\m\Desktop\shopping\server\node_modules\_mongoose@5.7.7@mongoose\lib\document.js:930:14)
+    at model.$set (C:\Users\m\Desktop\shopping\server\node_modules\_mongoose@5.7.7@mongoose\lib\document.js:874:22)
+    at model.Document (C:\Users\m\Desktop\shopping\server\node_modules\_mongoose@5.7.7@mongoose\lib\document.js:136:12)
+    at model.Model (C:\Users\m\Desktop\shopping\server\node_modules\_mongoose@5.7.7@mongoose\lib\model.js:93:12)
+    at new model (C:\Users\m\Desktop\shopping\server\node_modules\_mongoose@5.7.7@mongoose\lib\model.js:4420:15)
+    at OperatingGoodsController.address (C:\Users\m\Desktop\shopping\server\app\controller\api\operatingGoods.js:130:29)
+    at Object.callFn (C:\Users\m\Desktop\shopping\server\node_modules\_egg-core@4.17.3@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\m\Desktop\shopping\server\node_modules\_egg-core@4.17.3@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\m\Desktop\shopping\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\m\Desktop\shopping\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\m\Desktop\shopping\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\m\Desktop\shopping\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\m\Desktop\shopping\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+errors: {"isDefault":{"message":"Cast to Boolean failed for value \"\" at path \"isDefault\"","name":"CastError","stringValue":"\"\"","kind":"Boolean","value":"","path":"isDefault","reason":{"message":"Cast to Boolean failed for value \"\" at path \"isDefault\"","name":"CastError","stringValue":"\"\"","kind":"Boolean","value":"","path":"isDefault"}}}
+_message: "Address validation failed"
+message: "Address validation failed: isDefault: Cast to Boolean failed for value \"\" at path \"isDefault\""
+name: "ValidationError"
+pid: 3268
+hostname: DESKTOP-VI228RB
+
+2019-11-13 21:32:49,365 ERROR 3268 [-/127.0.0.1/-/4ms POST /v1/address] nodejs.ValidationError: Address validation failed: isDefault: Cast to Boolean failed for value "" at path "isDefault"
+    at new ValidationError (C:\Users\m\Desktop\shopping\server\node_modules\_mongoose@5.7.7@mongoose\lib\error\validation.js:31:11)
+    at model.Document.invalidate (C:\Users\m\Desktop\shopping\server\node_modules\_mongoose@5.7.7@mongoose\lib\document.js:2394:32)
+    at model.$set (C:\Users\m\Desktop\shopping\server\node_modules\_mongoose@5.7.7@mongoose\lib\document.js:1175:12)
+    at model._handleIndex (C:\Users\m\Desktop\shopping\server\node_modules\_mongoose@5.7.7@mongoose\lib\document.js:930:14)
+    at model.$set (C:\Users\m\Desktop\shopping\server\node_modules\_mongoose@5.7.7@mongoose\lib\document.js:874:22)
+    at model.Document (C:\Users\m\Desktop\shopping\server\node_modules\_mongoose@5.7.7@mongoose\lib\document.js:136:12)
+    at model.Model (C:\Users\m\Desktop\shopping\server\node_modules\_mongoose@5.7.7@mongoose\lib\model.js:93:12)
+    at new model (C:\Users\m\Desktop\shopping\server\node_modules\_mongoose@5.7.7@mongoose\lib\model.js:4420:15)
+    at OperatingGoodsController.address (C:\Users\m\Desktop\shopping\server\app\controller\api\operatingGoods.js:130:29)
+    at Object.callFn (C:\Users\m\Desktop\shopping\server\node_modules\_egg-core@4.17.3@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\m\Desktop\shopping\server\node_modules\_egg-core@4.17.3@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\m\Desktop\shopping\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\m\Desktop\shopping\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\m\Desktop\shopping\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\m\Desktop\shopping\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\m\Desktop\shopping\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+errors: {"isDefault":{"message":"Cast to Boolean failed for value \"\" at path \"isDefault\"","name":"CastError","stringValue":"\"\"","kind":"Boolean","value":"","path":"isDefault","reason":{"message":"Cast to Boolean failed for value \"\" at path \"isDefault\"","name":"CastError","stringValue":"\"\"","kind":"Boolean","value":"","path":"isDefault"}}}
+_message: "Address validation failed"
+message: "Address validation failed: isDefault: Cast to Boolean failed for value \"\" at path \"isDefault\""
+name: "ValidationError"
+pid: 3268
+hostname: DESKTOP-VI228RB
+

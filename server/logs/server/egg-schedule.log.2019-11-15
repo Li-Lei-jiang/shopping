@@ -1,0 +1,6 @@
+2019-11-15 23:59:57,767 INFO 9488 [Timer] C:\Users\m\Desktop\shopping\server\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js next time will execute after 86402255ms at 2019-11-17 00:00:00.021
+2019-11-15 23:59:57,751 INFO 10072 [Job#15738335976471672613177022002] C:\Users\m\Desktop\shopping\server\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js executing by app
+2019-11-15 23:59:57,776 INFO 10072 [Job#15738335976471672613177022002] C:\Users\m\Desktop\shopping\server\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js execute succeed, used 22ms
+2019-11-15 23:59:58,641 INFO 10072 [Job#15738335986401672623100975992] C:\Users\m\Desktop\shopping\server\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js executing by app
+2019-11-15 23:59:58,668 INFO 10072 [Job#15738335986401672623100975992] C:\Users\m\Desktop\shopping\server\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js execute succeed, used 27ms
+2019-11-15 23:59:58,652 INFO 9488 [Timer] C:\Users\m\Desktop\shopping\server\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 86402360ms at 2019-11-17 00:00:01.011
